@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+
+  /******************
+  PAGE: CONTACT
+  *******************/
+  #primary {
+    width: 50%;
+    float:left;
+  }
+
+#secondary {
+  width: 40%;
+  float:right;
+}
+
+
+/******************
+PAGE: PORTFOLIO 3 COLUMNS
+*******************/
+
+#gallery li {
+  width: 28.3333%
+}
+
+}
+
+@@media screen and (min-width: 660px) {
+
+}

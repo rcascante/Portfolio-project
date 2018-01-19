@@ -1,0 +1,215 @@
+/****************
+GENERAL
+****************/
+
+
+body {
+  margin: 0 0 0 0;
+}
+
+
+
+/***** site body color *****/
+
+body {
+  background-color: #fff;
+  color: #2d333a;
+}
+
+/***** site body font *****/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/***** ul style *****/
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  margin: 0 0 1em 0
+}
+
+/***** site body wrapper *****/
+
+#body-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 5px;
+}
+
+
+/***** site anchor links *****/
+
+a {
+  text-decoration: none;
+  color: #2d333a;
+}
+
+/****************
+Gallery in Portfolio page
+****************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/***** img style *****/
+
+#gallery img {
+  max-width: 100%; /* max-width of 100% tells the img to fill the width of their parent container, if the container shrinks, the image shrinks also */
+}
+
+/****************
+PAGE: ABOUT PAGE
+****************/
+
+.profile-photo {
+  display: block; /*by default images are displayed inline, we want it to behave as a block to have it's own width and heigh*/
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+a.linkedin:hover {
+  text-decoration: underline;
+}
+
+
+/****************
+PAGE: CONTACT PAGE
+****************/
+
+
+.contact-info {
+  margin: 0;
+  padding: 0;
+}
+
+.phone {
+  margin-bottom: 20px;
+}
+
+.contact-logo img {
+  max-width: 20px;
+  float: left;
+  margin-right: 15px;
+  padding: 0 15px 0;
+}
+
+
+
+
+/****************
+HEADER
+****************/
+
+/**** header logo ****/
+#logo-femmecode {
+  text-align: center;
+  margin: 0;
+}
+
+#logo-femmecode h1 {
+  font-size: 2.25em; /* 1em is 16px */
+  margin: 15px 0;
+  font-weight: normal;
+  line-height: 0.8em; /* amount of space between each line of text, more visible in <p> */
+
+}
+
+#logo-femmecode h2 {
+  font-size: 1.25em; /* 1em is 16px */
+  font-weight: normal;
+  line-height: 0.8em; /* amount of space between each line of text, more visible in <p> */
+}
+
+
+header {
+  float:left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+/***** header colors *****/
+header {
+  background-color: #f8f8f8;
+  border-color: #f4f4f4;
+}
+
+
+
+/****************
+NAVIGATION
+****************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav {
+  background-color: #f4f4f4;
+}
+
+
+nav a {
+  font-weight: 400;
+  padding: 15px 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display:  inline-block;
+}
+
+
+
+/***** Header anchor pseudo classes *****/
+
+nav a:visited {
+  color: #000;
+}
+
+nav a.selected, nav a:hover {
+  color: #777c81;
+}
+
+
+/***** Site footer *****/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: f8f8f8;
+}
+
+.social-icon{
+  width: 30px;
+  margin: 0 5px;
+}
